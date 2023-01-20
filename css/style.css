@@ -60,36 +60,18 @@ section {
   min-height: 100vh;
   padding: 1rem;
 }
-/* .btn {
-  padding: 0.7rem 2rem;
-  background: #333;
-  color: #fff;
-  cursor: pointer;
-  margin-top: 1rem;
-  font-size: 2rem;
-  border-radius: 1rem;
-}
-
-.btn i {
-  padding: 0rem 0.5rem;
-  font-size: 1.8rem;
-}
-
-.btn:hover {
-  background: var(--blue);
-} */
 
 .btn {
   background-color: #333;
   -webkit-border-radius: 60px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   color: #eeeeee;
   cursor: pointer;
   display: inline-block;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 20px;
-  padding: 5px 15px;
+  padding: 15px 25px;
   margin-top: 13px;
   text-align: center;
   text-decoration: none;
@@ -105,9 +87,7 @@ section {
   }
 
 }
-.btn {
-  animation: glowing 3s infinite;
-}
+
 .btn:hover {
   background: var(--blue);
 } 
@@ -172,17 +152,17 @@ header .navbar {
 
 header .navbar ul {
   list-style: none;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
 }
 
 header .navbar ul li a {
   display: block;
-  padding: 1rem;
-  margin: 1.5rem 0;
+  padding: 0.5rem;
+  margin: 1rem 0;
   background: #333;
   color: #fff;
   font-size: 2rem;
-  border-radius: 5rem;
+  border-radius: 2rem;
 }
 
 header .navbar ul li a:hover {
@@ -231,6 +211,42 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   color: #fff;
   padding: 1rem 0;
+}
+
+.interest {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 0 15rem;
+}
+
+.interest span {
+  color: var(--red);
+}
+
+.interest h3 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.interest h1 {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.interest h1 span {
+  color: var(--red);
+}
+
+.interest p {
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem 0rem 2rem 0rem;
+}
+.interest h6 {
+  font-size: 1.8rem;
+  color:#eeeeee;
+  padding: 0.5rem;
 }
 
 .about .row {
